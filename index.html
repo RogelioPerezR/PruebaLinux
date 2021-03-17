@@ -1,0 +1,52 @@
+<html>
+        
+    <body>
+        <center>
+        <p>Actividad 2: Desarrollo de Aplicaciones Web</p>
+        <p>Datos del Empleado</p>
+
+        <form id="form" name="form" action="./Formulario2.php" method="post">
+            
+            <table>
+                <tr>
+                    <td>Clave:</td>
+                    <td><input type="text" id="clave" name="clave" maxlength="5"></td>
+                </tr>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" id="nombre" name="nombre" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td>Apellido Paterno:</td>
+                    <td><input type="text" id="apaterno" name="apaterno" maxlength="15"></td>
+                </tr>
+                <tr>
+                    <td>Apellido Materno:</td>
+                    <td><input type="text" id="amaterno" name="amaterno" maxlength="15"></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td><select id="sexo" name="sexo">
+                        <option>Hombre</option>
+                        <option>Mujer</option>
+                        <option>Otro</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento:</td>
+                    <td>
+                        <input type="date" id="fecha" name="fecha" value="2021-03-08"
+                        min="1995-01-01" max="2021-12-31">
+                    </td>
+                </tr>
+            </table>
+
+            <br><br><!--<input id="enviar" name="enviar" type="submit" value="Enviar">-->
+
+            <button type="submit" id="bg" name="bg" value="GET">GET</button>
+            <button type="button" id="bp" name="bp" value="POST">POST</button>
+            <button type="button" id="br" name="br" value="REQUEST">REQUEST</button>
+        </form></center>
+        
+    </body>
+</html>
